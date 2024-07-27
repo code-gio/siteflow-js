@@ -1,0 +1,31 @@
+{
+  "name": "siteflow",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-gio/siteflow-js.git"
+  },
+  "version": "0.0.1",
+  "description": "A js client for the Siteflow HP API",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "release": "npm run build && changeset publish",
+    "lint": "tsc"
+  },
+  "keywords": [
+    "siteflow",
+    "siteflow-js",
+    "siteflow-api",
+    "siteflow-client"
+  ],
+  "author": "Giovani Rodriguez",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.7",
+    "tsup": "^8.2.3",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {}
+}
