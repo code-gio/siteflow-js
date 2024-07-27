@@ -4,7 +4,7 @@
     "type": "git",
     "url": "git+https://github.com/code-gio/siteflow-js.git"
   },
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A js client for the Siteflow HP API",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
